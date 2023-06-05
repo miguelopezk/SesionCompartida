@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9998FAA7-0539-4E1C-9278-48F64FFF4E70}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="miguel" ID="{9998FAA7-0539-4E1C-9278-48F64FFF4E70}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="sonido" ID="{B88C9B9D-0A1E-4259-8745-E36E757CA539}" ShortID="765616107">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{34BF1745-ACB3-46F8-9B6B-57FE02AF290E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{67C3369F-6C9A-4753-B855-1686140B75AD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Voices, Baby, 3 Months, Short Laugh SND22606" ID="{3900BA1F-D8CE-4DF3-B45B-12A8CA191FAD}">
+							<Language>SFX</Language>
+							<AudioFile>Voices, Baby, 3 Months, Short Laugh SND22606.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="951641632"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Voices, Baby, 3 Months, Short Laugh SND22606" ID="{3900BA1F-D8CE-4DF3-B45B-12A8CA191FAD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
